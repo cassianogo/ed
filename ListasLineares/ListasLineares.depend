@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1353095974 source:c:\users\pedro.torres\documents\github\ed\listaslineares\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1353095961 source:c:\users\pedro.torres\documents\github\ed\listaslineares\exemplo.c
+	<stdio.h>
+	"minunit.h"
+
+1353095884 c:\users\pedro.torres\documents\github\ed\listaslineares\minunit.h
+
