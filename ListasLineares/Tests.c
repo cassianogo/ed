@@ -15,6 +15,10 @@ static char * test_soma(){
     double n1 = 1;
     double n2 = 1;
     double result = 2;
+    printf("%f\n",soma(n1,n2));
+    printf("%f",result);
+    system("pause");
+
     mu_assert("FAILL-> Soma \n",soma(n1,n2) == result);
     return 0;
 }

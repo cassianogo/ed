@@ -9,7 +9,6 @@ double subtracao(double x, double y);
 double multiplicacao(double x, double y);
 double divisao(double x, double y);
 
-
 int main() {
     int op = 1;
 
@@ -17,15 +16,10 @@ int main() {
     scanf("%d",&op);
 
     if(op == 1){
-        printf("ueueiauiasajk");
+
     }else if(op == 0){
-        while(op == 0 ){
-            system( "cls" );
-            mu_run_all;
-            printf("Rodar os testes \n[0]Sim \n[1]Nao: ");
-            scanf("%d",&op);
-            system( "cls" );
-        }
+        system("cls");
+        mu_run_all;
     }
     return 0;
 }
@@ -44,7 +38,8 @@ double search(int value){
 }
 
 double soma(double x, double y){
-    return x+y;
+    double r = x+y;
+    return r;
 }
 
 double subtracao(double x, double y){
