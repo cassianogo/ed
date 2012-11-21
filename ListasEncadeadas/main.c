@@ -43,7 +43,7 @@ void imprime(celula *lst){
 
 void insert(int value, celula *p){
     celula *nova;
-    nova = malloc(sizeof(celula));
+    nova = (celula *) malloc(sizeof(celula)); //Mudança pra realizar o cast para o tipo do ponteiro.
     nova->conteudo = value;
     nova->seg = p->seg;
     p->seg = nova;
