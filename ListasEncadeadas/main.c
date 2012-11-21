@@ -4,6 +4,7 @@
 /*Prototypes*/
 void insert();
 void imprime();
+int total = 0;
 
 struct cel{
     int conteudo;
@@ -15,19 +16,19 @@ typedef struct cel celula;
 int main(){
     celula c;
     celula *p;
+    int i = 0;
 
     c.seg = NULL; /*Inicializar a lista com NULL no seguinte essa é a lista com cabeça.*/
     p = &c;
 
-    insert(1, p);
-    insert(2, p);
-    insert(3, p);
-    insert(4, p);
-    insert(5, p);
+    printf("Informe o valor:\n");
+    scanf("%d",&i);
 
-    imprime(p);
-
-    buscaRemove(3, p);
+    while(i != 0 ){
+        insert(i, p);
+        printf("Informe o valor:\n");
+        scanf("%d",&i);
+    }
 
     imprime(p);
 
