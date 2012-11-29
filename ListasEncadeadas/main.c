@@ -66,4 +66,7 @@ void buscaRemove(int value, celula *lst){
     }
 }
 
+void testemetodo(){
+}
+
 
